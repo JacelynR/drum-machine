@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: black;
+
+}
+
+#drum-machine {
+    width: 600px;
+}
+
+#root {
+    width: 600px;
+    height: 500px;
+    background-color: #000066;
+    margin: 15px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.card-header {
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffff00
+}
+
+#display {
+    outline: 5px solid orange;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+    font-size: 22px;
+    background-color: lighten(grey, 20%);
+  }
+
+  .display-view {
+      background-color: white;
+  }
+
+
+.btn-group button {
+    background-color: #003366;
+    border: 1px solid black;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 8px 12px;
+    margin: 5px; 
+    cursor: pointer; 
+    float: left;
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+    background-color: grey;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* no double borders */
+  }
+  
+  .btn-group button:hover {
+    background-color: lightblue;
+  }
+
+
